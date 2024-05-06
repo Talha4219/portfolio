@@ -1,4 +1,5 @@
 import styled, { ThemeProvider } from "styled-components";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { darkTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
 import { BrowserRouter } from "react-router-dom";
